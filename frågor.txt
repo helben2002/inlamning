@@ -1,0 +1,18 @@
+När använder man add respektive commit?
+Svar: git add används för att stagea filer innan man commitar
+commit används för att bekräfta och skapa en ny commit
+
+Vad är pull repektive push?
+Svar: git pull används för att hämta ändringar på filer från remote repository(ex github)
+git push används för att skicka/lägga upp mina commits till remote repository(ex github)
+
+När använder man log respektive status?
+Svar: git log använder man när man vill se sin commit-historik
+git status använder man när man vill se status i sin repository för de filer man har där, vilka som är stageade,
+vilka som inte har commitats än osv
+
+Vad är en Git branch och varför är de viktiga?
+Svar: En branch kan användas för att arbeta på en kodändring isolerat från annan utveckling som äger rum
+Man kan skapa en ny branch när man vill arbeta med en del av ett projekt fristående tex lägga till en ny feature
+eller rätta en bug.
+De är bra för att man kan göra saker utan att påverka "originalet"
